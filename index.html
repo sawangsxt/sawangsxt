@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad Bash Shell Theme</title>
+    <style>
+        /* Definisikan gaya dasar halaman */
+        body {
+            background-color: #2e2e2e; /* Warna latar belakang gelap */
+            color: #f8f8f2; /* Warna teks terang */
+            font-family: 'Courier New', Courier, monospace; /* Menggunakan font mirip terminal */
+            font-size: 16px; /* Ukuran font standar */
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Area konten utama (tampilan seperti Notepad) */
+        .container {
+            background-color: #1e1e1e; /* Latar belakang seperti Notepad */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Bayangan untuk efek 3D */
+            height: calc(100vh - 40px);
+            overflow: auto;
+        }
+
+        /* Styling untuk header */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Teks placeholder mirip dengan yang ada di notepad */
+        .notepad-content {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background-color: transparent;
+            color: inherit;
+            font-size: inherit;
+            resize: none;
+            outline: none;
+        }
+
+        /* Efek ketika kursor berada di atas area teks */
+        .notepad-content:focus {
+            background-color: #333333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Notepad Bash Shell Theme</h1>
+        </header>
+        <textarea class="notepad-content" placeholder="Tulis sesuatu..."></textarea>
+    </div>
+
+</body>
+</html>
